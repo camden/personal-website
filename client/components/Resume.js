@@ -4,12 +4,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Section from 'components/Section';
 import Education from 'components/sections/Education';
 import Experience from 'components/sections/Experience';
-import Projects from 'components/sections/Projects';
-import Skills from 'components/sections/Skills';
+import Footer from 'components/sections/Footer';
 import Info from 'components/sections/Info';
+import Projects from 'components/sections/Projects';
+import Section from 'components/Section';
+import Skills from 'components/sections/Skills';
 
 const Wrapper = styled.div`margin: 1rem 2rem;`;
 
@@ -44,6 +45,7 @@ const Resume = props => {
         title={'Projects'}
         content={<Projects content={resume.projects} />}
       />
+      <Footer content={resume.footer} />
     </Wrapper>
   );
 };
