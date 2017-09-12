@@ -23,6 +23,7 @@
   "author": "Camden Bickel <cam@bickel.io>",
   "devDependencies": {
     "chokidar-cli": "^1.2.0",
+    "dotenv-webpack": "^1.5.4",
     "eslint": "^3.19.0",
     "eslint-plugin-flowtype": "^2.35.0",
     "eslint-plugin-react": "^6.10.3",
@@ -56,6 +57,7 @@
     "hedron": "^0.7.1",
     "html-webpack-plugin": "^2.30.1",
     "marksy": "^5.0.0",
+    "moment": "^2.18.1",
     "node-fetch": "^1.7.2",
     "prerender-node": "^2.7.2",
     "prop-types": "^15.5.10",
@@ -63,6 +65,7 @@
     "react-debounce-input": "^3.0.1",
     "react-dom": "^15.5.4",
     "react-fastclick": "^3.0.2",
+    "react-feather": "^1.0.7",
     "react-helmet": "^5.2.0",
     "react-media": "^1.6.1",
     "react-progress": "^0.0.12",

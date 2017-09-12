@@ -1,0 +1,158 @@
+{
+  "basics": {
+    "name": "Camden Bickel",
+    "label": "Software Engineer",
+    "email": "",
+    "phone": "",
+    "iconPhone": "fa-phone",
+    "iconEmail": "fa-envelope",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "US",
+      "region": "",
+      "regionAbbrev": "",
+      "iconLocation": "map-marker"
+    },
+    "availability": "Available 01/18 - 08/18",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "camden",
+        "url": "http://github.com/camden",
+        "iconName": "fa-github"
+      },
+      {
+        "network": "Website",
+        "url": "cam.bickel.io",
+        "iconName": "fa-globe"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Intuit",
+      "website": "intuit.com",
+      "position": "Software Engineer Co-op",
+      "startDate": "2017-01-09",
+      "endDate": "2017-07-09",
+      "summary": "",
+      "techUsed": "",
+      "highlights": [
+        "Designed and implemented DepCop, a Javascript tool that analyzes Webpack compilation output and uses static file parsing to enforce dependency restrictions",
+        "Owned three major React + Redux dev tool projects, fully tested with Sinon and Enzyme. Used daily by hundreds of engineers across Intuit",
+        "Won People's Choice Award at office-wide hackathon with fully-functional MVP web-app"
+      ]
+    },
+    {
+      "company": "ClearSummit",
+      "website": "http://clearsumm.it",
+      "position": "Web Developer",
+      "startDate": "2016-05-03",
+      "endDate": "2016-08-20",
+      "summary": "Worked closely with a small team to develop medium-scale SPAs",
+      "techUsed": "Django, AngularJS, Sass, PostgreSQL, Git, JIRA",
+      "highlights": [
+        "Implemented payment processing in Django and AngularJS (both learned on the job) using the Stripe API on TuneRegistry, an online music catalog metadata manager",
+        "Integrated Django-Channels (WebSockets) with TuneRegistry to bring live-updating to user-facing forms",
+        "Overhauled an existing Django API to interface with an iOS application",
+        "Collaborated with colleagues using JIRA and the Git flow model to tackle dozens of bug reports and feature requests"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Northeastern University",
+      "college": "College of Computer & Information Science",
+      "area": "Computer Science",
+      "subarea": "Minor in Graphic Design",
+      "gpa": "3.68 / 4.00",
+      "studyType": "Bachelor of Science",
+      "startDate": "2015-09-02",
+      "endDate": "Present",
+      "appendEndDate": "(Expected 2019)",
+      "awards": "Dean's Scholar, Dean's List, Honors Program",
+      "activities": "Ultimate Frisbee Club Team, Tabletop Roleplaying Club"
+    }
+  ],
+  "projects": {
+    "subtitle": "For more information about each project (and other projects), visit http://camdenbickel.com and http://github.com/camdenb",
+    "items": [
+      {
+        "title": "Rulebook.io",
+        "summary": "Community-curated rulebooks for board games - with all data hosted on GitHub. Full-stack solution that uses Docker + Dokku for deployment, Node.js + Express on the back-end, Redis for caching, and React for the front-end.",
+        "techUsed": "React, Docker, Dokku, Node.js, Express, Redis",
+        "highlights": [
+        ],
+        "dateFinished": "2015-09-16"
+      },
+      {
+        "title": "TinyD20",
+        "summary": "D&D dice-simulator built from the ground-up using HTML/CSS, Javascript, and the Chrome Extension API",
+        "techUsed": "Javascript, HTML5, CSS3, Chrome Extension API",
+        "highlights": [
+          "Currently has 3000+ active users and a 5-star review on the Chrome Web Store"
+        ],
+        "dateFinished": "2015-09-02"
+      },
+      {
+        "title": "This résumé",
+        "summary": "Built with React, using data from a resume.json file.",
+        "techUsed": "React, Javascript, Webpack",
+        "highlights": [
+
+        ],
+        "dateFinished": "2017-09-01"
+      },
+      {
+        "title": "cam.bickel.io",
+        "summary": "Online portfolio made with HTML/CSS, SkeletonCSS, and Jekyll",
+        "techUsed": "HTML5, CSS3, Jekyll, SkeletonCSS",
+        "highlights": [
+
+        ],
+        "dateFinished": "2016-01-02"
+      },
+      {
+        "title": "Menubar D20",
+        "summary": "Precursor to TinyD20 - OS X menubar application made using Swift 2 that simulates D&D dice rolls",
+        "techUsed": "XCode, Swift 2",
+        "highlights": [
+
+        ],
+        "hidden": true,
+        "dateFinished": "2015-08-02"
+      }
+    ]
+  },
+  "volunteer": [
+    {
+      "organization": "Big Brothers / Big Sisters of Massachusetts Bay",
+      "position": "Big Brother",
+      "startDate": "2015-10-02",
+      "endDate": "2016-12-19",
+      "summary": "Developed a one-on-one relationship with a local third-grader by offering consistency, encouragement, and role modeling through weekly visits to the Little's school",
+      "highlights": [
+
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "type": "Web Development",
+      "list": "React, Redux, Express, Webpack, Enzyme, Sinon, Redis"
+    },
+    {
+      "type": "Tools",
+      "list": "Git, Bash, Vim, JIRA"
+    },
+    {
+      "type": "Languages",
+      "list": "Javascript, HTML5, CSS3, Python, Java, Lua, Racket"
+    }
+  ],
+
+  "interests": "Ultimate Frisbee, D&D, Cooking"
+}
+

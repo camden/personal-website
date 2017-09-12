@@ -1,5 +1,7 @@
 // @flow
 
-const config = {};
+const config = {
+  iconSize: '12',
+};
 
 export default config;
