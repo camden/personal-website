@@ -23,7 +23,6 @@
   "author": "Camden Bickel <cam@bickel.io>",
   "devDependencies": {
     "chokidar-cli": "^1.2.0",
-    "dotenv-webpack": "^1.5.4",
     "eslint": "^3.19.0",
     "eslint-plugin-flowtype": "^2.35.0",
     "eslint-plugin-react": "^6.10.3",
@@ -50,6 +49,7 @@
     "color": "^2.0.0",
     "css-loader": "^0.28.5",
     "dotenv": "^4.0.0",
+    "dotenv-webpack": "^1.5.4",
     "express": "^4.15.4",
     "front-matter": "^2.1.2",
     "ghrequest": "^1.0.1",
