@@ -5,7 +5,6 @@ import React from 'react';
 import Resume from 'components/Resume';
 import resume from 'assets/resume.json';
 
-console.log(process.env);
 resume.basics.email = process.env.EMAIL_ADDRESS;
 resume.basics.phone = process.env.PHONE_NUMBER;
 resume.basics.location.address = process.env.LOCATION_ADDRESS;

@@ -33,6 +33,7 @@ module.exports = {
     new Dotenv({
       path: './.env',
       safe: false,
+      systemvars: true,
     }),
     new webpack.optimize.UglifyJsPlugin({
       comments: false, // remove comments
