@@ -23,7 +23,7 @@ const Date = props => {
         {children}
       </ChildrenSection>
       <DateSection>
-        <Text light>
+        <Text block light>
           {date}
         </Text>
       </DateSection>

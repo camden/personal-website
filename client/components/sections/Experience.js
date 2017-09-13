@@ -7,6 +7,7 @@ import styled from 'styled-components';
 import Date from 'components/Date';
 import List from 'components/List';
 import ListItem from 'components/ListItem';
+import Spacer from 'components/Spacer';
 import Text from 'components/Text';
 
 import { dateFormatter } from 'utils';
@@ -28,13 +29,14 @@ const Experience = props => {
                 dateFormatter(work.endDate)
               }
             >
-              <Text block bold>
+              <Text bold>
                 {work.company}
               </Text>
+              <Spacer />
+              <Text italic>
+                {work.position}
+              </Text>
             </Date>
-            <Text italic>
-              {work.position}
-            </Text>
             <Text block>
               {work.summary}
             </Text>

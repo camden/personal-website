@@ -18,7 +18,7 @@ const Projects = props => {
 
   return (
     <div>
-      <Text italic block>
+      <Text italic block style={{ marginBottom: '0.25rem' }}>
         {content.subtitle}
       </Text>
       {content.items.map(project => {
