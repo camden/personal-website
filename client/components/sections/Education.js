@@ -9,7 +9,7 @@ import Text from 'components/Text';
 
 import { dateFormatter } from 'utils';
 
-const Education = props => {
+const Institution = props => {
   const { content } = props;
 
   return (
@@ -55,12 +55,33 @@ const Education = props => {
           {content.awards}
         </Text>
       </div>
+      <div>
+        <Text bold>Highlights:</Text>
+        <Spacer />
+        <Text>
+          {content.highlights}
+        </Text>
+      </div>
+    </div>
+  );
+};
+
+const Education = props => {
+  const { content } = props;
+
+  return (
+    <div>
+      {content.map(institution => {
+        return (
+          <Institution content={institution} key={institution.institution} />
+        );
+      })}
     </div>
   );
 };
 
 Education.propTypes = {
-  content: PropTypes.object.isRequired,
+  content: PropTypes.array.isRequired,
 };
 
 export default Education;

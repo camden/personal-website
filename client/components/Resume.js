@@ -37,7 +37,7 @@ const Resume = props => {
       </Header>
       <Section
         title={'Education'}
-        content={<Education content={resume.education[0]} />}
+        content={<Education content={resume.education} />}
       />
       <Section title={'Skills'} content={<Skills content={resume.skills} />} />
       <Section
