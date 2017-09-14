@@ -51,7 +51,7 @@
       "position": "Web Developer",
       "startDate": "2016-05-03",
       "endDate": "2016-08-20",
-      "summary": "Worked closely with a small team to develop medium-scale SPAs",
+      "summary": "",
       "techUsed": "Django, AngularJS, Sass, PostgreSQL, Git, JIRA",
       "highlights": [
         "Implemented payment processing in Django and AngularJS (both learned on the job) using the Stripe API on TuneRegistry, an online music catalog metadata manager",
