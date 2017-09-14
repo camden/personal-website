@@ -2,6 +2,8 @@
   "variants": {
     "uk": {
       "basics": {
+        "location": {
+        },
         "availability": "Available 01/18 - 08/18"
       }
     }
@@ -48,9 +50,9 @@
       "summary": "",
       "techUsed": "",
       "highlights": [
+        "Won People's Choice Award at office-wide hackathon with fully-functional MVP web-app",
         "Owned three major React + Redux dev tool projects, fully tested with Sinon and Enzyme. Used daily by hundreds of engineers across Intuit",
-        "Designed and implemented DepCop, a Javascript tool that analyzes Webpack compilation output and uses static file parsing to enforce dependency restrictions",
-        "Won People's Choice Award at office-wide hackathon with fully-functional MVP web-app"
+        "Designed and implemented DepCop, a Javascript tool that analyzes Webpack compilation output and uses static file parsing to enforce dependency restrictions"
       ]
     },
     {
