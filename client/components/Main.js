@@ -1,7 +1,6 @@
 // @flow
 
 import React, { Component } from 'react';
-import ReactModal from 'react-modal';
 
 import Resume from 'components/Resume';
 import resume from 'assets/resume.json';
@@ -20,51 +19,10 @@ resume.variants.uk.basics.location.regionAbbrev =
   process.env.VARIANT_UK_LOCATION_REGION_ABBREV;
 
 class Main extends Component {
-  state: {
-    settingsModalOpen: boolean,
-  };
-
-  handleCloseModal: Function;
-
   constructor(props) {
     super(props);
 
-    this.state = {
-      settingsModalOpen: false,
-    };
-
-    this.handleCloseModal = this.handleCloseModal.bind(this);
     this.getVariantName = this.getVariantName.bind(this);
-  }
-
-  componentWillMount() {
-    document.addEventListener('keyup', this.handleKeyPress.bind(this));
-  }
-
-  componentWillUnmount() {
-    document.removeEventListener('keyup', this.handleKeyPress.bind(this));
-  }
-
-  handleKeyPress(event) {
-    if (event.key === 'e') {
-      this.handleOpenModal();
-    }
-
-    if (event.key === 'Escape') {
-      this.handleCloseModal();
-    }
-  }
-
-  handleCloseModal() {
-    this.setState({
-      settingsModalOpen: false,
-    });
-  }
-
-  handleOpenModal() {
-    this.setState({
-      settingsModalOpen: true,
-    });
   }
 
   getVariantName() {
@@ -72,17 +30,7 @@ class Main extends Component {
   }
 
   render() {
-    return (
-      <div>
-        <ReactModal
-          isOpen={this.state.settingsModalOpen}
-          contentLabel={'settings modal'}
-        >
-          <button onClick={this.handleCloseModal}>Done</button>
-        </ReactModal>
-        <Resume resume={resume} variant={this.getVariantName()} />
-      </div>
-    );
+    return <Resume resume={resume} variant={this.getVariantName()} />;
   }
 }
 
