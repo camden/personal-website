@@ -19,8 +19,8 @@ const Spacer = props => {
 };
 
 Spacer.propTypes = {
-  dot: PropTypes.boolean,
-  large: PropTypes.boolean,
+  dot: PropTypes.bool,
+  large: PropTypes.bool,
 };
 
 export default Spacer;

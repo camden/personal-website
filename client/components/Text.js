@@ -19,10 +19,10 @@ Text.defaultProps = {
 
 Text.propTypes = {
   size: PropTypes.number,
-  bold: PropTypes.boolean,
-  block: PropTypes.boolean,
-  italic: PropTypes.boolean,
-  light: PropTypes.boolean,
+  bold: PropTypes.bool,
+  block: PropTypes.bool,
+  italic: PropTypes.bool,
+  light: PropTypes.bool,
   children: PropTypes.node,
 };
 

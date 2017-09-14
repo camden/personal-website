@@ -154,6 +154,14 @@
   ],
 
   "interests": "Ultimate Frisbee, D&D, Cooking",
-  "footer": "References available upon request."
+  "footer": "References available upon request.",
+
+  "variants": {
+    "test": {
+      "basics": {
+        "name": "TEST NAME"
+      }
+    }
+  }
 }
 

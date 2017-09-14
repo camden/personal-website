@@ -12,6 +12,8 @@ import Projects from 'components/sections/Projects';
 import Section from 'components/Section';
 import Skills from 'components/sections/Skills';
 
+import { resumeWithVariant } from 'utils';
+
 const Wrapper = styled.div`margin: 1rem 2rem;`;
 
 const Header = styled.div`display: flex;`;
@@ -22,7 +24,8 @@ const Title = styled.div`
 `;
 
 const Resume = props => {
-  const { resume } = props;
+  let { resume } = props;
+  resume = resumeWithVariant({ resume, variant: 'test' });
 
   return (
     <Wrapper>
