@@ -1,4 +1,12 @@
 {
+  "variants": {
+    "uk": {
+      "basics": {
+        "availability": "Available 01/18 - 08/18"
+      }
+    }
+  },
+
   "basics": {
     "name": "Camden Bickel",
     "label": "Software Engineer",
@@ -15,7 +23,7 @@
       "regionAbbrev": "",
       "iconLocation": "map-marker"
     },
-    "availability": "Available 01/18 - 08/18",
+    "availability": "Available 01/18 - 06/18",
     "profiles": [
       {
         "network": "GitHub",
@@ -154,14 +162,7 @@
   ],
 
   "interests": "Ultimate Frisbee, D&D, Cooking",
-  "footer": "References available upon request.",
+  "footer": "References available upon request."
 
-  "variants": {
-    "test": {
-      "basics": {
-        "name": "TEST NAME"
-      }
-    }
-  }
 }
 
