@@ -24,7 +24,7 @@ const Projects = props => {
       {content.items.map(project => {
         return (
           <Project key={project.company}>
-            <Date date={dateFormatter(project.endDate)}>
+            <Date date={dateFormatter(project.dateFinished)}>
               <Text block bold>
                 {project.title}
               </Text>
