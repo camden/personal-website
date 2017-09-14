@@ -4,6 +4,10 @@ import moment from 'moment';
 import merge from 'deepmerge';
 
 export const dateFormatter = (date: string) => {
+  if (!date) {
+    return date;
+  }
+
   if (!moment(date).isValid()) {
     return date;
   }
