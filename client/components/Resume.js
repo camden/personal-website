@@ -24,8 +24,8 @@ const Title = styled.div`
 `;
 
 const Resume = props => {
-  let { resume } = props;
-  resume = resumeWithVariant({ resume, variant: 'test' });
+  let { resume, variant } = props;
+  resume = resumeWithVariant({ resume, variant });
 
   return (
     <Wrapper>
@@ -55,6 +55,7 @@ const Resume = props => {
 
 Resume.propTypes = {
   resume: PropTypes.object.isRequired,
+  variant: PropTypes.string.isRequired,
 };
 
 export default Resume;

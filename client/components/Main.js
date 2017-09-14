@@ -30,6 +30,7 @@ class Main extends Component {
     };
 
     this.handleCloseModal = this.handleCloseModal.bind(this);
+    this.getVariantName = this.getVariantName.bind(this);
   }
 
   componentWillMount() {
@@ -62,6 +63,10 @@ class Main extends Component {
     });
   }
 
+  getVariantName() {
+    return this.props.location.pathname.substring(1);
+  }
+
   render() {
     return (
       <div>
@@ -71,7 +76,7 @@ class Main extends Component {
         >
           <button onClick={this.handleCloseModal}>Done</button>
         </ReactModal>
-        <Resume resume={resume} />
+        <Resume resume={resume} variant={this.getVariantName()} />
       </div>
     );
   }

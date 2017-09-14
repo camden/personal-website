@@ -22,6 +22,5 @@ export const resumeWithVariant = ({
     return resume;
   }
 
-  console.log(merge(resume, resume.variants[variant]));
-  return resume;
+  return merge(resume, resume.variants[variant]);
 };
