@@ -53,7 +53,8 @@
       "highlights": [
         "Won People's Choice Award at office-wide hackathon with fully-functional MVP web-app",
         "Owned three major React + Redux dev tool projects, fully tested with Sinon and Enzyme. Used daily by hundreds of engineers across Intuit",
-        "Designed and implemented DepCop, a Javascript tool that analyzes Webpack compilation output and uses static file parsing to enforce dependency restrictions"
+        "Designed and implemented DepCop, a Javascript tool that analyzes Webpack compilation output and uses static file parsing to enforce dependency restrictions. DepCop is now run during nearly every git push across Intuit",
+        "Collaborated with the director of engineering and the primary architects from each domain at Intuit (payment, accounting, etc.) to develop a tool that measures per-team agile velocity based on static code analysis"
       ]
     },
     {

@@ -3,7 +3,7 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-const fontSizes = ['13px'];
+const fontSizes = ['12px'];
 
 const Text = styled.span`
   font-weight: ${props => (props.bold ? 'bold' : 'normal')};

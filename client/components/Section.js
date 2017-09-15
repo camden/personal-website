@@ -19,7 +19,7 @@ const Wrapper = styled.section`
 const Title = styled.div`
   color: #ff5252;
   text-transform: uppercase;
-  flex-basis: 9rem;
+  flex-basis: 8rem;
 
   @media print {
     color: #ff5252;
