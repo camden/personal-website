@@ -12,6 +12,7 @@ injectGlobal`
     margin: 0;
     height: 100%;
     min-height: 100%;
+    -webkit-print-color-adjust: exact;
   }
 
   // Printer margins 0
