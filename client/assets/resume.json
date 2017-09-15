@@ -84,7 +84,7 @@
       "endDate": "Present (Expected 2019)",
       "awards": "Dean's Scholar, Dean's List, Honors Program",
       "activities": "Ultimate Frisbee Club Team",
-      "highlights": "Semester abroad in Edinburgh in Fall 2017."
+      "highlights": "Semester abroad in Edinburgh in Fall 2017"
     }
   ],
   "projects": {
@@ -155,7 +155,7 @@
       "list": "React, Redux, Express, Webpack, Enzyme, Sinon, Redis"
     },
     {
-      "type": "Languages",
+      "type": "Programming Languages",
       "list": "Javascript, HTML5, CSS3, Python, Java, Lua, Racket"
     },
     {
