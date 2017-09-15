@@ -12,12 +12,13 @@ import Text from 'components/Text';
 const Link = styled.a`text-decoration: none;`;
 
 const Wrapper = styled.div`
-  flex: 1;
+  flex-basis: 100%;
   align-self: flex-end;
 
   text-align: left;
 
   @media print, (min-width: ${props => props.theme.media.desktop}) {
+    flex: 1;
     text-align: right;
   }
 `;

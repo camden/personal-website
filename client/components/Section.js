@@ -19,19 +19,20 @@ const Wrapper = styled.section`
 const Title = styled.div`
   color: #ff5252;
   text-transform: uppercase;
-  flex-basis: 100%;
-  flex-shrink: 0;
-
-  @media print, (min-width: ${props => props.theme.media.desktop}) {
-    flex-basis: 9rem;
-  }
+  flex-basis: 9rem;
 
   @media print {
     color: #ff5252;
   }
 `;
 
-const Content = styled.div`flex: 1;`;
+const Content = styled.div`
+  flex-basis: 100%;
+
+  @media print, (min-width: ${props => props.theme.media.desktop}) {
+    flex: 1;
+  }
+`;
 
 const Section = props => {
   const { title, content } = props;
