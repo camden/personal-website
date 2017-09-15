@@ -17,14 +17,17 @@ const Wrapper = styled.section`
 `;
 
 const Title = styled.div`
-  color: palevioletred;
+  color: #ff5252;
   text-transform: uppercase;
-  font-weight: bold;
   flex-basis: 100%;
   flex-shrink: 0;
 
   @media print, (min-width: ${props => props.theme.media.desktop}) {
     flex-basis: 9rem;
+  }
+
+  @media print {
+    color: #ff5252;
   }
 `;
 

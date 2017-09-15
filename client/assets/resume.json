@@ -155,12 +155,12 @@
       "list": "React, Redux, Express, Webpack, Enzyme, Sinon, Redis"
     },
     {
-      "type": "Tools",
-      "list": "Git, Bash, Vim, JIRA"
-    },
-    {
       "type": "Languages",
       "list": "Javascript, HTML5, CSS3, Python, Java, Lua, Racket"
+    },
+    {
+      "type": "Tools",
+      "list": "Git, Bash, Vim, JIRA"
     }
   ],
 

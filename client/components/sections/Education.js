@@ -21,7 +21,7 @@ const Institution = props => {
           dateFormatter(content.endDate)
         }
       >
-        <Text bold>
+        <Text bold contentTitle>
           {content.institution}
         </Text>
         <Spacer dot />

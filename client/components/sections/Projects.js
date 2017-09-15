@@ -25,7 +25,7 @@ const Projects = props => {
         return (
           <Project key={project.title}>
             <Date date={dateFormatter(project.dateFinished)}>
-              <Text block bold>
+              <Text block bold contentTitle>
                 {project.title}
               </Text>
             </Date>

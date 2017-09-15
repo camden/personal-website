@@ -29,7 +29,7 @@ const Experience = props => {
                 dateFormatter(work.endDate)
               }
             >
-              <Text bold>
+              <Text bold contentTitle>
                 {work.company}
               </Text>
               <Spacer />
