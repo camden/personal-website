@@ -14,7 +14,10 @@ import Skills from 'components/sections/Skills';
 
 import { resumeWithVariant } from 'utils';
 
-const Wrapper = styled.div`margin: 1rem 2rem;`;
+const Wrapper = styled.div`
+  margin: 1rem 2rem;
+  max-width: 8.5in;
+`;
 
 const Header = styled.div`
   display: flex;

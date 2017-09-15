@@ -1,6 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
+import styled from 'styled-components';
 
 import Resume from 'components/Resume';
 import resume from 'assets/resume.json';
@@ -18,6 +19,11 @@ resume.variants.uk.basics.location.city = process.env.VARIANT_UK_LOCATION_CITY;
 resume.variants.uk.basics.location.regionAbbrev =
   process.env.VARIANT_UK_LOCATION_REGION_ABBREV;
 
+const Wrapper = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 class Main extends Component {
   constructor(props) {
     super(props);
@@ -30,7 +36,11 @@ class Main extends Component {
   }
 
   render() {
-    return <Resume resume={resume} variant={this.getVariantName()} />;
+    return (
+      <Wrapper>
+        <Resume resume={resume} variant={this.getVariantName()} />
+      </Wrapper>
+    );
   }
 }
 
