@@ -11,8 +11,7 @@ const Text = styled.span`
   font-style: ${props => (props.italic ? 'oblique' : 'normal')};
   display: ${props => (props.block ? 'block' : 'inline-block')};
   color: ${props => (props.light ? '#999' : '#333')};
-  ${props =>
-    props.contentTitle ? 'margin-top: 0.5rem; margin-bottom: 0.25rem;' : ''};
+  ${props => (props.contentTitle ? 'margin-bottom: 0.25rem;' : '')};
 `;
 
 Text.defaultProps = {
