@@ -35,7 +35,8 @@
       },
       {
         "network": "Website",
-        "url": "cam.bickel.io",
+        "username": "cam.bickel.io",
+        "url": "http://cam.bickel.io",
         "iconName": "fa-globe"
       }
     ]

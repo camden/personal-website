@@ -9,6 +9,8 @@ import config from 'config';
 import Spacer from 'components/Spacer';
 import Text from 'components/Text';
 
+const Link = styled.a`text-decoration: none;`;
+
 const Wrapper = styled.div`
   flex: 1;
   align-self: flex-end;
@@ -39,9 +41,11 @@ const Info = props => {
       <div>
         <Mail size={config.iconSize} />
         <Spacer />
-        <Text>
-          {content.email}
-        </Text>
+        <Link href={`mailto:${content.email}`} target="_blank">
+          <Text>
+            {content.email}
+          </Text>
+        </Link>
         <Spacer dot />
         <Phone size={config.iconSize} />
         <Spacer />
@@ -52,15 +56,19 @@ const Info = props => {
       <div>
         <Github size={config.iconSize} />
         <Spacer />
-        <Text>
-          {content.profiles[0].username}
-        </Text>
+        <Link href={content.profiles[0].url} target="_blank">
+          <Text>
+            {content.profiles[0].username}
+          </Text>
+        </Link>
         <Spacer dot />
         <Globe size={config.iconSize} />
         <Spacer />
-        <Text>
-          {content.profiles[1].url}
-        </Text>
+        <Link href={content.profiles[1].url} target="_blank">
+          <Text>
+            {content.profiles[1].username}
+          </Text>
+        </Link>
       </div>
     </Wrapper>
   );
