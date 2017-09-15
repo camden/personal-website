@@ -16,7 +16,13 @@ import { resumeWithVariant } from 'utils';
 
 const Wrapper = styled.div`margin: 1rem 2rem;`;
 
-const Header = styled.div`display: flex;`;
+const Header = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  @media print, (min-width: ${props => props.theme.media.desktop}) {
+    flex-wrap: nowrap;
+  }
+`;
 
 const Title = styled.div`
   font-size: 35px;

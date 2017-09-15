@@ -14,6 +14,11 @@ injectGlobal`
     min-height: 100%;
   }
 
+  // Printer margins 0
+  @page {
+    margin: 0;
+  }
+
   * {
     box-sizing: border-box;
   }

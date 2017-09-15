@@ -12,7 +12,12 @@ import Text from 'components/Text';
 const Wrapper = styled.div`
   flex: 1;
   align-self: flex-end;
-  text-align: right;
+
+  text-align: left;
+
+  @media print, (min-width: ${props => props.theme.media.desktop}) {
+    text-align: right;
+  }
 `;
 
 const Info = props => {

@@ -8,14 +8,24 @@ const Wrapper = styled.section`
   margin: 0.5rem 0;
 
   display: flex;
+
+  flex-wrap: wrap;
+
+  @media print or (min-width: ${props => props.theme.media.desktop}) {
+    flex-wrap: nowrap;
+  }
 `;
 
 const Title = styled.div`
   color: palevioletred;
   text-transform: uppercase;
   font-weight: bold;
-  flex-basis: 9rem;
+  flex-basis: 100%;
   flex-shrink: 0;
+
+  @media print, (min-width: ${props => props.theme.media.desktop}) {
+    flex-basis: 9rem;
+  }
 `;
 
 const Content = styled.div`flex: 1;`;
