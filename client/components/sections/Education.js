@@ -26,7 +26,7 @@ const Institution = props => {
         </Text>
         <Spacer dot />
         <Text>
-          {content.gpa}
+          GPA: {content.gpa}
         </Text>
       </Date>
       <Text block italic>

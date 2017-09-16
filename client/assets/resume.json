@@ -101,10 +101,9 @@
       },
       {
         "title": "TinyD20",
-        "summary": "D&D dice-simulator built from the ground-up using HTML/CSS, Javascript, and the Chrome Extension API",
+        "summary": "D&D dice-simulator built from the ground-up using HTML/CSS, Javascript, and the Chrome Extension API. Currently has 3000+ active users and a 5-star review on the Chrome Web Store.",
         "techUsed": "Javascript, HTML5, CSS3, Chrome Extension API",
         "highlights": [
-          "Currently has 3000+ active users and a 5-star review on the Chrome Web Store"
         ],
         "dateFinished": "2017-06-02"
       },
