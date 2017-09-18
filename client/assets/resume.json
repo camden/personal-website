@@ -152,7 +152,7 @@
   "skills": [
     {
       "type": "Web Development",
-      "list": "React, Redux, Express, Webpack, Enzyme, Sinon, Redis"
+      "list": "React, Redux, Express, Webpack, FlowType, Enzyme, Sinon, Redis"
     },
     {
       "type": "Programming Languages",
